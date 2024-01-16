@@ -30,25 +30,46 @@ public class FileSharerPlugin: CAPPlugin {
         }
 
         do {
-            try dataObj.write(to: tmpUrl)
+
+            if let storiesUrl = URL(string: "instagram-stories://share?source_application=com.stake.stake") {
+                if UIApplication.shared.canOpenURL(storiesUrl) {
+//                    guard let imageData = UIImagePNGRepresentation(dataObj) else { return }
+                    let pasteboardItems: [String: Any] = [
+                        "com.instagram.sharedSticker.stickerImage": dataObj,
+                        "com.instagram.sharedSticker.backgroundTopColor": "#636e72",
+                        "com.instagram.sharedSticker.backgroundBottomColor": "#b2bec3"
+                    ]
+                    if #available(iOS 10, *) {
+                        let pasteboardOptions = [
+                            UIPasteboard.OptionsKey.expirationDate: Date().addingTimeInterval(300)
+                        ]
+                        UIPasteboard.general.setItems([pasteboardItems], options: pasteboardOptions)
+                        UIApplication.shared.open(storiesUrl, options: [:], completionHandler: nil)
+                     }
+//                     self.dismiss(animated: true, completion: nil)
+                }
+            }
+
+
+            // try dataObj.write(to: tmpUrl)
             
-            DispatchQueue.main.async {
-                let activityVC = UIActivityViewController(activityItems: [tmpUrl], applicationActivities: nil)
-                // must be on the main thread
-                let capacitorView = self.bridge?.viewController?.view
+            // DispatchQueue.main.async {
+            //     let activityVC = UIActivityViewController(activityItems: [tmpUrl], applicationActivities: nil)
+            //     // must be on the main thread
+            //     let capacitorView = self.bridge?.viewController?.view
 
-                // On iPhones the activity is shown as modal
-                // On iPads on the other side it must be a popover by providing either a (sourceView AND sourceRect) OR a barButtonItem.
-                activityVC.popoverPresentationController?.sourceView = capacitorView
-                activityVC.popoverPresentationController?.sourceRect =
-                    CGRect(x: capacitorView?.center.x ?? 0,
-                           y: capacitorView?.bounds.size.height ?? 0,
-                           width: 0,
-                           height: 0)
+            //     // On iPhones the activity is shown as modal
+            //     // On iPads on the other side it must be a popover by providing either a (sourceView AND sourceRect) OR a barButtonItem.
+            //     activityVC.popoverPresentationController?.sourceView = capacitorView
+            //     activityVC.popoverPresentationController?.sourceRect =
+            //         CGRect(x: capacitorView?.center.x ?? 0,
+            //                y: capacitorView?.bounds.size.height ?? 0,
+            //                width: 0,
+            //                height: 0)
 
-                self.bridge?.viewController?.present(activityVC, animated: true, completion: {
-                    call.resolve()
-                })
+            //     self.bridge?.viewController?.present(activityVC, animated: true, completion: {
+            //         call.resolve()
+            //     })
             }
         } catch {
             call.reject(self.ERR_FILE_CACHING_FAILED)
