@@ -1,5 +1,5 @@
 {
-  "name": "@byteowls/capacitor-filesharer",
+  "name": "@stake/instagram",
   "version": "5.0.0",
   "description": "Capacitor plugin to download and share files for the Web, Android and iOS",
   "author": "Michael Oberwasserlechner",
