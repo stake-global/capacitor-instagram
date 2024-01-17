@@ -2,6 +2,7 @@
     "name": "@hellostake/instagram",
     "version": "1.0.0",
     "description": "Capacitor plugin to download and share directly to instagram stories for iOS and share to different mediums for Android",
+    "author": "Michael Oberwasserlechner",
     "license": "MIT",
     "main": "dist/esm/index.js",
     "module": "dist/esm/index.js",
@@ -20,8 +21,12 @@
         "android/build.gradle",
         "dist/",
         "ios/ByteowlsCapacitorFilesharer/Source",
-        "ByteowlsCapacitorFilesharer.podspec"
+        "HellostakeInstagram.podspec"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stake-global/capacitor-instagram"
+    },
     "keywords": [
         "capacitor",
         "capacitor-plugin",
