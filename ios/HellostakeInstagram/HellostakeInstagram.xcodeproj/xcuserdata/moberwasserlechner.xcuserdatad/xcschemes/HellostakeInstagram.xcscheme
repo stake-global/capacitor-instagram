@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE1C41B721861FFC00F8236E"
-               BuildableName = "ByteowlsCapacitorFilesharer.framework"
-               BlueprintName = "ByteowlsCapacitorFilesharer"
-               ReferencedContainer = "container:ByteowlsCapacitorFilesharer.xcodeproj">
+               BuildableName = "HellostakeInstagram.framework"
+               BlueprintName = "HellostakeInstagram"
+               ReferencedContainer = "container:HellostakeInstagram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE1C41B721861FFC00F8236E"
-            BuildableName = "ByteowlsCapacitorFilesharer.framework"
-            BlueprintName = "ByteowlsCapacitorFilesharer"
-            ReferencedContainer = "container:ByteowlsCapacitorFilesharer.xcodeproj">
+            BuildableName = "HellostakeInstagram.framework"
+            BlueprintName = "HellostakeInstagram"
+            ReferencedContainer = "container:HellostakeInstagram.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE1C41B721861FFC00F8236E"
-            BuildableName = "ByteowlsCapacitorFilesharer.framework"
-            BlueprintName = "ByteowlsCapacitorFilesharer"
-            ReferencedContainer = "container:ByteowlsCapacitorFilesharer.xcodeproj">
+            BuildableName = "HellostakeInstagram.framework"
+            BlueprintName = "HellostakeInstagram"
+            ReferencedContainer = "container:HellostakeInstagram.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

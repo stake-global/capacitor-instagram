@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18DD3EC6FD926A19540AA106 /* Pods_ByteowlsCapacitorFilesharer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F94771610D9566B3ED5847 /* Pods_ByteowlsCapacitorFilesharer.framework */; };
-		FE1C41BD21861FFC00F8236E /* ByteowlsCapacitorFilesharer.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1C41BB21861FFC00F8236E /* ByteowlsCapacitorFilesharer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9AC5F721862144009471A9 /* ByteowlsCapacitorFilesharer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9AC5F421862144009471A9 /* ByteowlsCapacitorFilesharer.m */; };
-		FE9AC5F821862144009471A9 /* ByteowlsCapacitorFilesharer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AC5F521862144009471A9 /* ByteowlsCapacitorFilesharer.swift */; };
+		18DD3EC6FD926A19540AA106 /* Pods_HellostakeInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F94771610D9566B3ED5847 /* Pods_HellostakeInstagram.framework */; };
+		FE1C41BD21861FFC00F8236E /* HellostakeInstagram.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1C41BB21861FFC00F8236E /* HellostakeInstagram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9AC5F721862144009471A9 /* HellostakeInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9AC5F421862144009471A9 /* HellostakeInstagram.m */; };
+		FE9AC5F821862144009471A9 /* HellostakeInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AC5F521862144009471A9 /* HellostakeInstagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50F94771610D9566B3ED5847 /* Pods_ByteowlsCapacitorFilesharer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByteowlsCapacitorFilesharer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80D48D1199882E584EB5E775 /* Pods-ByteowlsCapacitorFilesharer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteowlsCapacitorFilesharer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByteowlsCapacitorFilesharer/Pods-ByteowlsCapacitorFilesharer.release.xcconfig"; sourceTree = "<group>"; };
-		E93EEABDBC3E0F5423DF22EB /* Pods-ByteowlsCapacitorFilesharer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByteowlsCapacitorFilesharer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByteowlsCapacitorFilesharer/Pods-ByteowlsCapacitorFilesharer.debug.xcconfig"; sourceTree = "<group>"; };
-		FE1C41B821861FFC00F8236E /* ByteowlsCapacitorFilesharer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ByteowlsCapacitorFilesharer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1C41BB21861FFC00F8236E /* ByteowlsCapacitorFilesharer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ByteowlsCapacitorFilesharer.h; sourceTree = "<group>"; };
+		50F94771610D9566B3ED5847 /* Pods_HellostakeInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HellostakeInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D48D1199882E584EB5E775 /* Pods-HellostakeInstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellostakeInstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-HellostakeInstagram/Pods-HellostakeInstagram.release.xcconfig"; sourceTree = "<group>"; };
+		E93EEABDBC3E0F5423DF22EB /* Pods-HellostakeInstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellostakeInstagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HellostakeInstagram/Pods-HellostakeInstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		FE1C41B821861FFC00F8236E /* HellostakeInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HellostakeInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1C41BB21861FFC00F8236E /* HellostakeInstagram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HellostakeInstagram.h; sourceTree = "<group>"; };
 		FE1C41BC21861FFC00F8236E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE9AC5F421862144009471A9 /* ByteowlsCapacitorFilesharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteowlsCapacitorFilesharer.m; sourceTree = "<group>"; };
-		FE9AC5F521862144009471A9 /* ByteowlsCapacitorFilesharer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteowlsCapacitorFilesharer.swift; sourceTree = "<group>"; };
+		FE9AC5F421862144009471A9 /* HellostakeInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellostakeInstagram.m; sourceTree = "<group>"; };
+		FE9AC5F521862144009471A9 /* HellostakeInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellostakeInstagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DD3EC6FD926A19540AA106 /* Pods_ByteowlsCapacitorFilesharer.framework in Frameworks */,
+				18DD3EC6FD926A19540AA106 /* Pods_HellostakeInstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +39,8 @@
 		34F01263DFDE9AF275C9C619 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E93EEABDBC3E0F5423DF22EB /* Pods-ByteowlsCapacitorFilesharer.debug.xcconfig */,
-				80D48D1199882E584EB5E775 /* Pods-ByteowlsCapacitorFilesharer.release.xcconfig */,
+				E93EEABDBC3E0F5423DF22EB /* Pods-HellostakeInstagram.debug.xcconfig */,
+				80D48D1199882E584EB5E775 /* Pods-HellostakeInstagram.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 		7144C000E7B46E365CE4F0B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50F94771610D9566B3ED5847 /* Pods_ByteowlsCapacitorFilesharer.framework */,
+				50F94771610D9566B3ED5847 /* Pods_HellostakeInstagram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 		FE1C41B921861FFC00F8236E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE1C41B821861FFC00F8236E /* ByteowlsCapacitorFilesharer.framework */,
+				FE1C41B821861FFC00F8236E /* HellostakeInstagram.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 		FE1C41BA21861FFC00F8236E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				FE9AC5F421862144009471A9 /* ByteowlsCapacitorFilesharer.m */,
-				FE9AC5F521862144009471A9 /* ByteowlsCapacitorFilesharer.swift */,
-				FE1C41BB21861FFC00F8236E /* ByteowlsCapacitorFilesharer.h */,
+				FE9AC5F421862144009471A9 /* HellostakeInstagram.m */,
+				FE9AC5F521862144009471A9 /* HellostakeInstagram.swift */,
+				FE1C41BB21861FFC00F8236E /* HellostakeInstagram.h */,
 				FE1C41BC21861FFC00F8236E /* Info.plist */,
 			);
 			path = Source;
@@ -89,16 +89,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1C41BD21861FFC00F8236E /* ByteowlsCapacitorFilesharer.h in Headers */,
+				FE1C41BD21861FFC00F8236E /* HellostakeInstagram.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FE1C41B721861FFC00F8236E /* ByteowlsCapacitorFilesharer */ = {
+		FE1C41B721861FFC00F8236E /* HellostakeInstagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE1C41C021861FFC00F8236E /* Build configuration list for PBXNativeTarget "ByteowlsCapacitorFilesharer" */;
+			buildConfigurationList = FE1C41C021861FFC00F8236E /* Build configuration list for PBXNativeTarget "HellostakeInstagram" */;
 			buildPhases = (
 				714F7C29706103C851AD5B57 /* [CP] Check Pods Manifest.lock */,
 				FE1C41B321861FFC00F8236E /* Headers */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = ByteowlsCapacitorFilesharer;
-			productName = ByteowlsCapacitorFilesharer;
-			productReference = FE1C41B821861FFC00F8236E /* ByteowlsCapacitorFilesharer.framework */;
+			name = HellostakeInstagram;
+			productName = HellostakeInstagram;
+			productReference = FE1C41B821861FFC00F8236E /* HellostakeInstagram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE1C41B221861FFC00F8236E /* Build configuration list for PBXProject "ByteowlsCapacitorFilesharer" */;
+			buildConfigurationList = FE1C41B221861FFC00F8236E /* Build configuration list for PBXProject "HellostakeInstagram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE1C41B721861FFC00F8236E /* ByteowlsCapacitorFilesharer */,
+				FE1C41B721861FFC00F8236E /* HellostakeInstagram */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +169,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ByteowlsCapacitorFilesharer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HellostakeInstagram-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -183,8 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE9AC5F821862144009471A9 /* ByteowlsCapacitorFilesharer.swift in Sources */,
-				FE9AC5F721862144009471A9 /* ByteowlsCapacitorFilesharer.m in Sources */,
+				FE9AC5F821862144009471A9 /* HellostakeInstagram.swift in Sources */,
+				FE9AC5F721862144009471A9 /* HellostakeInstagram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 		};
 		FE1C41C121861FFC00F8236E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E93EEABDBC3E0F5423DF22EB /* Pods-ByteowlsCapacitorFilesharer.debug.xcconfig */;
+			baseConfigurationReference = E93EEABDBC3E0F5423DF22EB /* Pods-HellostakeInstagram.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -332,7 +332,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteowls.capacitor.ByteowlsCapacitorFilesharer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteowls.capacitor.HellostakeInstagram;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -343,7 +343,7 @@
 		};
 		FE1C41C221861FFC00F8236E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D48D1199882E584EB5E775 /* Pods-ByteowlsCapacitorFilesharer.release.xcconfig */;
+			baseConfigurationReference = 80D48D1199882E584EB5E775 /* Pods-HellostakeInstagram.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -360,7 +360,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteowls.capacitor.ByteowlsCapacitorFilesharer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteowls.capacitor.HellostakeInstagram;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -371,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE1C41B221861FFC00F8236E /* Build configuration list for PBXProject "ByteowlsCapacitorFilesharer" */ = {
+		FE1C41B221861FFC00F8236E /* Build configuration list for PBXProject "HellostakeInstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE1C41BE21861FFC00F8236E /* Debug */,
@@ -380,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE1C41C021861FFC00F8236E /* Build configuration list for PBXNativeTarget "ByteowlsCapacitorFilesharer" */ = {
+		FE1C41C021861FFC00F8236E /* Build configuration list for PBXNativeTarget "HellostakeInstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE1C41C121861FFC00F8236E /* Debug */,

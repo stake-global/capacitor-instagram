@@ -20,7 +20,7 @@
         "android/src/main/",
         "android/build.gradle",
         "dist/",
-        "ios/ByteowlsCapacitorFilesharer/Source",
+        "ios/HellostakeInstagram/Source",
         "HellostakeInstagram.podspec"
     ],
     "repository": {
