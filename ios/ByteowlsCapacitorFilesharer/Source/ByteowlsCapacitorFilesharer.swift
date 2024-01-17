@@ -52,7 +52,7 @@ public class FileSharerPlugin: CAPPlugin {
 
 
             // try dataObj.write(to: tmpUrl)
-            
+
             // DispatchQueue.main.async {
             //     let activityVC = UIActivityViewController(activityItems: [tmpUrl], applicationActivities: nil)
             //     // must be on the main thread
@@ -70,7 +70,7 @@ public class FileSharerPlugin: CAPPlugin {
             //     self.bridge?.viewController?.present(activityVC, animated: true, completion: {
             //         call.resolve()
             //     })
-            }
+            // }
         } catch {
             call.reject(self.ERR_FILE_CACHING_FAILED)
         }
