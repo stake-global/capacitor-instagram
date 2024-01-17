@@ -1,9 +1,7 @@
 {
-    "name": "@byteowls/capacitor-filesharer",
-    "version": "5.0.0",
-    "description": "Capacitor plugin to download and share files for the Web, Android and iOS",
-    "author": "Michael Oberwasserlechner",
-    "homepage": "https://github.com/moberwasserlechner/capacitor-filesharer",
+    "name": "@stake-global/instagram",
+    "version": "1.0.0",
+    "description": "Capacitor plugin to download and share directly to instagram stories for iOS and share to different mediums for Android",
     "license": "MIT",
     "main": "dist/esm/index.js",
     "module": "dist/esm/index.js",
@@ -38,16 +36,6 @@
         "android": {
             "src": "android"
         }
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/moberwasserlechner/capacitor-filesharer"
-    },
-    "bugs": {
-        "url": "https://github.com/moberwasserlechner/capacitor-filesharer/issues"
-    },
-    "publishConfig": {
-        "access": "public"
     },
     "peerDependencies": {
         "@capacitor/core": ">=5"
