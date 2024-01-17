@@ -1,5 +1,5 @@
 {
-    "name": "@stake-global/instagram",
+    "name": "@hellostake/instagram",
     "version": "1.0.0",
     "description": "Capacitor plugin to download and share directly to instagram stories for iOS and share to different mediums for Android",
     "license": "MIT",
